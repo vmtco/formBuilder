@@ -9,7 +9,10 @@ pages:
 - Introduction: index.md
 - Getting Started: getting-started.md
 - Development:
-  - Overview: development.md
+  - Summary: development.md
+  - Overview: formBuilder/overview.md
+  - Controls: formBuilder/controls.md
+  - Control Plugins: formBuilder/control-plugins.md
   - Icon Font: editing-fonts.md
 - formBuilder Demos:
   - Basic: formBuilder/demos/basic.md
@@ -17,19 +20,42 @@ pages:
   - Translating: formBuilder/demos/translation.md
   - Tabbed/Multi-paged Forms: formBuilder/demos/tabs.md
   - Data: formBuilder/demos/data.md
+  - Custom Elements: formBuilder/options/templates.md
 - formBuilder Options:
-  - Overview: formBuilder/options.md
+  - actionButtons: formBuilder/options/actionButtons.md
   - append/prepend: formBuilder/options/appendPrepend.md
-  - controlPosition: formBuilder/options/controlPosition.md
   - controlOrder: formBuilder/options/controlOrder.md
-  - disableFields: formBuilder/options/disableFields.md
+  - controlPosition: formBuilder/options/controlPosition.md
+  - dataType: formBuilder/options/dataType.md
   - defaultFields: formBuilder/options/defaultFields.md
+  - disableFields: formBuilder/options/disableFields.md
+  - disabledAttrs: formBuilder/options/disabledAttrs.md
+  - disabledActionButtons: formBuilder/options/disabledActionButtons.md
+  - disableInjectedStyle: formBuilder/options/disableInjectedStyle.md
   - editOnAdd: formBuilder/options/editOnAdd.md
+  - fields: formBuilder/options/fields.md
   - fieldRemoveWarn: formBuilder/options/fieldRemoveWarn.md
-  - messages: formBuilder/options/messages.md
+  - formData: formBuilder/options/formData.md
+  - inputSets: formBuilder/options/inputSets.md
+  - i18n: formBuilder/options/i18n.md
   - notify: formBuilder/options/notify.md
+  - roles: formBuilder/options/roles.md
+  - showActionButtons: formBuilder/options/showActionButtons.md
   - sortableControls: formBuilder/options/sortableControls.md
   - stickyControls: formBuilder/options/stickyControls.md
+  - templates: formBuilder/options/templates.md
+  - typeUserAttrs: formBuilder/options/typeUserAttrs.md
+  - typeUserEvents: formBuilder/options/typeUserEvents.md
+  - typeUserDisabledAttrs: formBuilder/options/typeUserDisabledAttrs.md
+- formBuilder Actions:
+  - setLang: formBuilder/actions/setLang.md
+  - getData: formBuilder/actions/getData.md
+  - showData: formBuilder/actions/showData.md
+  - clearFields: formBuilder/actions/clearFields.md
+  - setData: formBuilder/actions/setData.md
+  - addField: formBuilder/actions/addField.md
+  - removeField: formBuilder/actions/removeField.md
+- formBuilder Promise: formBuilder/promise.md
 - formRender Demos:
   - Basic: formRender/demos/basic.md
   - Preview popup: formRender/demos/preview-popup.md
@@ -46,5 +72,5 @@ extra_css:
   - '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/styles/monokai-sublime.min.css'
 extra_javascript:
   - 'js/scripts.js'
-  - '//assets.codepen.io/assets/embed/ei.js'
+  - '//production-assets.codepen.io/assets/embed/ei.js'
   - '//sidecar.gitter.im/dist/sidecar.v1.js'

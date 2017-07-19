@@ -1,5 +1,61 @@
 # Changelog
 
+- v2.5.3 - Hotfix: paragraph label overflow resolves #517 [#525](https://github.com/kevinchappell/formBuilder/pull/525)
+- v2.5.2 - Fineuploader error handling & reporting [#516](https://github.com/kevinchappell/formBuilder/pull/516)
+  + fixed autocomplete control behaviour [#521](https://github.com/kevinchappell/formBuilder/pull/521)
+- v2.5.1 - copy in control config rather than reference it so any alterations arent global. support fineuploader handler having querystring args. fix bug in applying fineuploader config to defaults. [#513](https://github.com/kevinchappell/formBuilder/pull/513)
+- v2.5.0 - upgraded fineuploader plugin to use cdnjs by default so it no longer … [#509](https://github.com/kevinchappell/formBuilder/pull/509)
+- v2.4.1 - Hotfix: disableFields option [#508](https://github.com/kevinchappell/formBuilder/pull/508)
+- v2.4.0 - New control plugin to replace the default file upload type [#506](https://github.com/kevinchappell/formBuilder/pull/506)
+- v2.3.5 - Hotfix: Constraint API [#505](https://github.com/kevinchappell/formBuilder/pull/505)
+- v2.3.4 - Hotfix: preload values to exisitng field types, fix fieldOrder [#501](https://github.com/kevinchappell/formBuilder/pull/501)
+- v2.3.3 - Hotfix: actionButtons are submitting forms [#498](https://github.com/kevinchappell/formBuilder/pull/498)
+- v2.3.2 - Hotfix: btn-undefined [#496](https://github.com/kevinchappell/formBuilder/pull/496)
+- v2.3.1 - Hotfix: opts.messages, sourcemaps [#495](https://github.com/kevinchappell/formBuilder/pull/495)
+- v2.3.0 - General cleanup, actionButtons option [#494](https://github.com/kevinchappell/formBuilder/pull/494)
+- v2.2.8 - Bug/extend fields [#493](https://github.com/kevinchappell/formBuilder/pull/493)
+- v2.2.7 - Make checkbox valid when at least one checkbox is checked [#490](https://github.com/kevinchappell/formBuilder/pull/490)
+- v2.2.6 - Remove outdated unminified files [#488](https://github.com/kevinchappell/formBuilder/pull/488)
+- v2.2.5 - Update package manager files to serve correct- updated version [#487](https://github.com/kevinchappell/formBuilder/pull/487)
+- v2.2.4 - Fix Other input behavior [#485](https://github.com/kevinchappell/formBuilder/pull/485)
+- v2.2.3 - Return unformatted JSON by default [#481](https://github.com/kevinchappell/formBuilder/pull/481)
+- v2.2.2 - Hotfix: getData [#464](https://github.com/kevinchappell/formBuilder/pull/464)
+- v2.2.1 - Hotfix: bootstrap addon style, Update documentation
+- v2.2.0 - Feature: Controls API, see: http://formbuilder.readthedocs.io/en/latest/formBuilder/overview/
+           Feature: Injected styles, no longer to need include css file.
+- v2.1.2 - Update npm scripts
+- v2.1.1 - Required checkbox fix, form-horizontal css alignment fix [#422](https://github.com/kevinchappell/formBuilder/pull/422)
+- v2.1.0 - Update docs & Critical fixes [#420](https://github.com/kevinchappell/formBuilder/pull/420)
+- v2.0.0 - ✨ Custom Controls, Automatic i18n, WYSIWYG Editor, HTML Labels ✨ [#414](https://github.com/kevinchappell/formBuilder/pull/414)
+- v1.24.7 - Fix textarea value not saving when preview changed [#408](https://github.com/kevinchappell/formBuilder/pull/408)
+- v1.24.6 - Bugfix: XMLParser children in ie #369, date form-control class #351 [#373](https://github.com/kevinchappell/formBuilder/pull/373)
+- v1.24.5 - Code cleanup, alignment issues, check select required fix
+- v1.24.4 - Bug fixes: bower.json, formRender children undefined
+- v1.24.2 - Hotfix: typeUserEvents, attribute array converted to comma separated list [#297](https://github.com/kevinchappell/formBuilder/pull/297)
+- v1.24.1 - Bugfix: defaultFields names are overwritten [#295](https://github.com/kevinchappell/formBuilder/pull/295)
+- v1.24.0 - Hotfix and Feature bonanza [#293](https://github.com/kevinchappell/formBuilder/pull/293)
+- v1.23.1 - Hotfix: deleteId undefined [#291](https://github.com/kevinchappell/formBuilder/pull/291)
+- v1.23.0 - Feature: inputSets [#285](https://github.com/kevinchappell/formBuilder/pull/285)
+- v1.22.1 - Bugfix: updateJSON does not set correct version [#284](https://github.com/kevinchappell/formBuilder/pull/284)
+- v1.22.0 - Feature: Rows Attribute for TextArea [#282](https://github.com/kevinchappell/formBuilder/pull/282)
+- v1.21.3 - Hotfix: addField index 0 without fields [#279](https://github.com/kevinchappell/formBuilder/pull/279)
+- v1.21.2 - Add Build and commit to gulp tag task [#278](https://github.com/kevinchappell/formBuilder/pull/278)
+- v1.21.1 - Chore: Add gulp tag task [#277](https://github.com/kevinchappell/formBuilder/pull/277)
+- v1.21.0 - Feature: addField and removeField actions [#276](https://github.com/kevinchappell/formBuilder/pull/276)
+- v1.20.3 - Bugfix: multi option name attribute [#274](https://github.com/kevinchappell/formBuilder/pull/274)
+- v1.20.2 - Bugfix: gulp font-edit [#263](https://github.com/kevinchappell/formBuilder/pull/263)
+- v1.20.1 - Bugfix: XML other option [#262](https://github.com/kevinchappell/formBuilder/pull/262)
+- v1.20.0 - Feature: typeUserEvents [#260](https://github.com/kevinchappell/formBuilder/pull/260)
+- v1.19.4 - Bugfix: typeUserAttrs repeated value from formData [#258](https://github.com/kevinchappell/formBuilder/pull/258)
+- v1.19.3 - Feature: tel subtype [#256](https://github.com/kevinchappell/formBuilder/pull/256)
+- v1.19.2 - Hotfix: Correctly escape attributes [#255](https://github.com/kevinchappell/formBuilder/pull/255)
+- v1.19.1 - Hotfix: typeUserAttrs duplicate attributes [#254](https://github.com/kevinchappell/formBuilder/pull/254)
+- v1.19.0 - Feature: Copy button [#252](https://github.com/kevinchappell/formBuilder/pull/252)
+- v1.18.0 - Feature: typeUserAttrs [#247](https://github.com/kevinchappell/formBuilder/pull/247)
+- v1.17.2 - Bugfix: Classes not saving in XML mode and option pre-select issues[#250](https://github.com/kevinchappell/formBuilder/pull/250)
+- v1.17.1 - Bugfix: `clearFields` action will error if no fields on stage[#245](https://github.com/kevinchappell/formBuilder/pull/245)
+- v1.17.0 - Feature: `showActionButtons` option and `showData` action[#244](https://github.com/kevinchappell/formBuilder/pull/244)
+- v1.16.0 - Feature: JSON support[#237](https://github.com/kevinchappell/formBuilder/pull/237)
 - v1.15.6 - Bugfix: Remove fields from `disableFields` option.[#231](https://github.com/kevinchappell/formBuilder/pull/231)
 - v1.15.5 - Feature: `save` action [#228](https://github.com/kevinchappell/formBuilder/pull/228)
 - v1.15.4 - Bugfix: formRender textarea value undefined [#224](https://github.com/kevinchappell/formBuilder/pull/224)
@@ -41,7 +97,7 @@
 - v1.9.17 - Bugfix: Umlauts break XML #112
 - v1.9.16 - Bugfix: XML parse issue [#110](https://github.com/kevinchappell/formBuilder/pull/110)
 - v1.9.15 - Bugfix: Option character encoding problem [#109](https://github.com/kevinchappell/formBuilder/pull/109)
-- v1.9.14 - 
+- v1.9.14 -
   - Feature: Header and Paragraph tags [#108](https://github.com/kevinchappell/formBuilder/pull/108)
   - Bugfix: button classes, special character encoding, renamed functions for Selenium
   - Chore: added/updated comments [#106](https://github.com/kevinchappell/formBuilder/pull/106)
@@ -99,8 +155,8 @@
 - v1.4.0 - Feature: `formRender` is a companion plugin to render saved formData into a usable form. [details here](https://github.com/kevinchappell/formBuilder/pull/20)
 - v1.3.5 - Bugfix: XML parse and save
   + This fix brings a slight update in XML markup for multiple value fields, specifically the `<option>` node. The changes is to move away from the proprietary XML parser formBuilder was made for.
-  
-  **This**: 
+
+  **This**:
   ```
   <field name="checkbox-group-1" label="Checkbox Group" style="multiple" required="false" type="checkbox-group" >
       <option label="Option 1">option-1</option>

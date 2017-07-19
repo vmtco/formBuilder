@@ -2,9 +2,31 @@
 
 Here we'll cover a few common tasks developers might face when setting up formBuilder.
 
-## Local development
-Once you've installed the dependencies in [Contributing](http://formbuilder.online/contributing) you can get a local version running by running the default gulp task in terminal.
+## Clone the repo
 ```bash
-$ gulp
+$ git clone git@github.com:kevinchappell/formBuilder.git form-builder && cd form-builder
 ```
-This will run `gulp build watch serve` which as you might guess, builds the js and scss files, watches them for changes, then opens a new browser tab and serves a running version of the plugin. We are using BrowserSync to inject style changes and automatically reload for JavaScript changes.
+
+## Install Dependencies
+```bash
+$ yarn install
+```
+or
+```bash
+$ npm install
+```
+
+## Local development
+Once you've cloned the project and installed it's dependencies you can get a local version running by running:
+```bash
+$ yarn start
+```
+
+This will run the default webpack config and open a new browser tab and that serves a demo of the plugin. This demo can be used to test features and bugs.
+
+## Custom Controls
+See the Control and Control Plugin Architecture Documentation to learn about how to create custom controls.
+
+ - [Overview](/formBuilder/overview)
+ - [Control](/formBuilder/controls)
+ - [Control Plugins](/formBuilder/control-plugins)
